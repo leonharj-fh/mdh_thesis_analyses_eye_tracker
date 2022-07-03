@@ -1,0 +1,71 @@
+%YAML 1.2
+---
+
+inputPath: "/home/user/eye_analyzation_0.2.3/HongKong2018_v0.2.3/base_data/"
+outputPath: "/home/user/eye_analyzation_0.2.3/HongKong2018_v0.2.3/prepared/"
+sensorDataFilename: "sensors.csv"
+eyetrackingDataFilename: "eyetracking.csv"
+
+subjectIds:
+  - student-1-[4ffff059-94d1-4195-8bbc-bc813c8fc1cc]-export
+  - student-1-[d7baa596-3e0c-4281-b508-321c445e5c5a]-export
+  - student-2-[96636c60-80b5-4b10-ab83-9398d84bb2e5]-export
+  - student-2-[84491227-2ab6-4b85-90c8-ef0404214d48]-export
+  - student-3-[45c8bf46-d03c-49fa-bde7-4d677428d9cb]-export
+  - student-3-[2055f90a-1b07-496d-b9b6-c1068d74895b]-export
+  - student-3-[d6a4f8cc-4308-41fb-ac14-4a7c7ee0ee03]-export
+  - student-4-[2344fa13-5f9d-44ed-9053-0239bc9faa61]-export
+  - student-4-[c41df502-9db7-4d33-af23-c57fa262a9c0]-export
+  - student-4-[cebd7fcd-5c7e-4e03-aa2f-789c5dce3081]-export
+  - student-5-[2ce0c625-9884-4793-a7f7-deb5db53c472]-export
+  - student-5-[92832706-ec76-4503-af3a-3ac4b53d758e]-export
+  - student-5-[e3dcc4ee-3201-4a7b-81d9-509a0aa6d26d]-export
+  - student-6-[8d639050-9b05-4e98-bb5c-581b302942a1]-export
+  - student-6-[4272dc91-15d6-4a43-8af2-633649c42062]-export #a few recording times may be vaulty
+  - student-7-[dc62dcdf-6c90-4e52-8e86-ad440f1ee265]-export
+  - student-7-[dfaf3c00-c085-46d8-9d67-ab0948fd5723]-export
+  - student-7-[e2c67042-b78a-4dee-840c-63e51819a896]-export
+  - student-8-[7d4a2eaa-a687-4f1d-aa25-abda711fabe7]-export
+  - student-8-[c3222970-6bc9-450e-8a80-0bfd08e0a674]-export
+  - student-9-[7d20e476-6bc6-403a-aff9-42a77be8a0de]-export
+  - student-9-[6798bb4b-10a6-4aba-b960-34446da9d258]-export
+  - student-10-[7fe545c0-3415-4fae-b03d-9db5be4a4eb0]-export  # gaze behavior outlier
+  - student-10-[60c6a3a4-d272-432a-b1d9-1574e5e1fdd1]-export
+  - student-11-[1b51675c-3501-4b51-a422-b4d4d11d1133]-export
+  - student-11-[920e9c62-be88-4c68-b60e-1346cdb779a7]-export
+  - student-12-[3c5ca53d-fad5-4be9-8015-921c597619ad]-export
+  - student-12-[28c51008-c104-4ec4-9192-12fffa561201]-export
+  - student-12-[166908eb-9671-40f2-a97a-404e950eb00e]-export
+  - student-13-[7e8af8ed-09f2-47a7-9f32-ec49d72c962f]-export
+  - student-13-[5861be49-d051-4f4b-9d1a-3664a6ec8c7a]-export
+  #- student-14-[0acc96a1-e01f-4e30-b9a0-2698e251da9c]-export # no sensor file
+  #- student-14-[76ca2a43-5678-4866-9585-699d8ecf92e6]-export # no sensor file
+  - student-15-[02e42428-4a1b-466b-92ce-7f628aefa497]-export
+  - student-15-[e84ba300-2647-4fa2-b15a-6087bc262120]-export
+  - student-16-[897c162c-89b6-4f66-9f31-4df977faa892]-export
+  - student-16-[77169a93-3096-4950-b3b4-41d0fe5a8967]-export
+  - student-17-[0c3ea0fe-ad32-4056-9813-33be39a0d25f]-export
+  - student-17-[80189dcf-aae2-4366-967e-b2f7e222d5d6]-export
+  - student-18-[2e78dbd7-886d-4150-a1e9-5f97faa3f27f]-export
+  - student-18-[19b8b394-8522-45e6-b81f-31bf62a2bd15]-export
+  - student-19-[705a296d-5234-4edb-9485-0646f772bee0]-export
+  - student-19-[e80bbabc-9c3a-406e-a3ee-385d5f079c9f]-export
+  - student-20-[4fa62bc0-436c-467f-ae72-62c3f33a539d]-export
+  - student-20-[61c6eac9-bd58-46f1-9f81-97e553c10d5e]-export
+  - student-21-[7055fd81-cd74-41ce-8372-0546008f3976]-export
+  - student-21-[cc1e4daf-1afe-4697-960a-4411d1073532]-export
+  - student-22-[6abd59bf-a7ce-4c74-939a-71240bc3043c]-export
+  - student-22-[fb5b92fa-3a58-40d3-b246-d774d93791bc]-export
+  - student-23-[b81fbb66-03e5-42b4-b322-178d7541fc8f]-export
+  - student-23-[bbf48414-a36d-4693-9084-155686365dd1]-export
+  - student-23-[bc47ffe3-a4c5-4fbd-a0c8-c803596d2000]-export
+  - student-24-[5ce1061e-88d7-4163-8089-221ed437842f]-export
+  - student-24-[434771a5-8619-4458-8d5c-4510dbfae7fa]-export
+  - student-25-[25b0ca2a-aee8-4ae5-be06-fbe147a2052f]-export
+  - student-25-[94d88091-09a9-45ae-bd7b-50384e7f6979]-export
+  - student-26-[3b1e8192-2763-404d-8137-866bdee2f752]-export
+  - student-26-[65e1db15-8f71-4180-8cfa-54ee3701d828]-export
+  - student-26-[f06ead1d-4710-48be-b1b2-676e06e64085]-export
+  - student-27-[1581c8eb-82c9-4f2d-a42d-1a53c5c801db]-export
+  - student-27-[8604d7d1-b85a-4b4d-889a-d4935936b45f]-export
+...

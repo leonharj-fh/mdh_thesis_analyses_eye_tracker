@@ -1,0 +1,40 @@
+%YAML 1.2
+---
+$schema: http://json-schema.org/draft-04/schema#
+additionalProperties: false
+description: Schema describing
+properties:
+  createStatistic:
+    description: True to enable statistics.
+    default: true
+    type: boolean
+  student_year:
+    description: Subject year to load for evaluation.
+    items:
+      minimum: 0
+      type: integer
+    minItems: 1
+    type: array
+  generateLidarStat:
+    description: |
+      Whether to generate plots and statistics on LIDAR data.
+
+      Property `createStatistic` has to be set `true`.
+    default: true
+    type: boolean
+  generateVergenceStat:
+    description: |
+      Whether to generate plots and statistics on vergence data.
+      
+      Property `createStatistic` has to be set `true`.
+    default: true
+    type: boolean
+  commonOutputPath:
+    description: Output path were files are save containing one or more datasets.
+    type: "string"
+    minLength: 1
+required:
+  - commonOutputPath
+type: object
+
+...

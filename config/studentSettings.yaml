@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+# regex pattern \[(.*)\]
+mergeSameStudentRecordings: true
+recordings:
+  - year: 2018
+    ids:
+      - d6a4f8cc-4308-41fb-ac14-4a7c7ee0ee03
+      - c41df502-9db7-4d33-af23-c57fa262a9c0
+      - e3dcc4ee-3201-4a7b-81d9-509a0aa6d26d
+      - dc62dcdf-6c90-4e52-8e86-ad440f1ee265
+      - 166908eb-9671-40f2-a97a-404e950eb00e
+      # - 691ad8c1-96a3-40b1-910f-56b23d30a67a # does not exist
+      - bc47ffe3-a4c5-4fbd-a0c8-c803596d2000
+      - 65e1db15-8f71-4180-8cfa-54ee3701d828
+
+  - year: 2019
+    ids:
+      -  e6b99af1-630f-4eed-8177-dbfe7f3c0ede
+      -  7159b3dc-5a14-48fd-8eda-4f3016ebef7b
+      -  a98e1ca7-b717-453a-b12d-023204cd6150
+      -  7fe08519-806a-4bae-9a80-19202da163d4
+      -  57ec9eac-d91b-44ba-a3cb-cf9a738bc888
+      -  caacad0d-a312-4e8b-b5f5-06f323d369e1
+      -  eff7a19c-fbac-4ad1-83b7-233643d8fa13
+      -  f48910bd-d9f7-41c8-a244-ee3551e2cc97
+      -  0380e698-9d27-4eb9-8590-fe34ca28bbc7
+      -  4fcba6d6-ec97-4157-88db-990f48ff87fe
+      -  4fa5bafb-5f22-4a68-860f-462297531cfc
+      -  2001c53a-2ee0-477f-99ee-c7dba6c93419
+      -  8a525a05-bb9a-4738-84c1-8fc9ed7cf6cb
+      -  60e4e3ae-76e4-42d6-ba69-34b50a832f0b
+      -  6430c235-9f35-4468-8c70-2fbb9e3c730d
+      -  3aed6dbe-264e-40b3-ab8e-97989e0964b9
+      -  3beb74b9-236e-408b-8b83-56184911a038
+      -  3068b7ae-8474-48d7-b97b-8f799695e3ca
+
+...

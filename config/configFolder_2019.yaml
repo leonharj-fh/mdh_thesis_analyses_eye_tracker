@@ -1,0 +1,62 @@
+%YAML 1.2
+---
+
+inputPath: "/home/user/eye_analyzation_0.2.3/HongKong2019_v0.2.3/base_data/"
+outputPath: "/home/user/eye_analyzation_0.2.3/HongKong2019_v0.2.3/prepared/"
+sensorDataFilename: "sensors.csv"
+eyetrackingDataFilename: "eyetracking.csv"
+
+subjectIds:
+  - student-1-[b774375b-4fa5-45eb-a165-eabd27b54f8d]-export
+  - student-2-lab-[e6b99af1-630f-4eed-8177-dbfe7f3c0ede]-export
+  - student-2-[9b660faf-fb62-4c0d-bdeb-56743f0c4bf2]-export
+  - student-3-[472350d6-ef3a-4eaf-aef3-0f2e47203256]-export
+  - student-4-lab-[7159b3dc-5a14-48fd-8eda-4f3016ebef7b]-export
+  - student-4-[a3cdad3d-8688-4402-a4f7-0136d222192a]-export
+  - student-5-lab-[a98e1ca7-b717-453a-b12d-023204cd6150]-export
+  - student-5-[15c555cb-b685-46be-8d85-393aedaff1e7]-export
+  - student-5-[e5ef8afa-eed4-4de1-9aec-f77b4e129454]-export
+  - student-6-lab-[7fe08519-806a-4bae-9a80-19202da163d4]-export
+  - student-6-[44ac9d78-de29-42b6-bace-7574066e5680]-export
+  - student-7-lab-[57ec9eac-d91b-44ba-a3cb-cf9a738bc888]-export
+  - student-7-[b424f2be-eb9b-4144-9324-15d0bc12919d]-export
+  - student-8-lab-[caacad0d-a312-4e8b-b5f5-06f323d369e1]-export
+  - student-8-[2d02f1ee-48ec-4bec-95d0-a358ff9a012c]-export
+  - student-9-lab-[eff7a19c-fbac-4ad1-83b7-233643d8fa13]-export
+  - student-9-[d06d3f75-49f3-47c6-ab06-511053099683]-export
+  - student-10-lab-[f48910bd-d9f7-41c8-a244-ee3551e2cc97]-export # only has a lab recording
+  - student-11-[e2d1577c-38c8-4c26-96ff-c4b98669530c]-export
+  - student-12-[d08231b9-1733-4c27-b164-6ed107745f78]-export
+  - student-13-lab-[0380e698-9d27-4eb9-8590-fe34ca28bbc7]-export
+  - student-13-[1e925721-787a-4349-acc4-08c51fde1193]-export
+  # - student-14-[17bc5c7f-d915-4790-b5ad-4125d1931aae]-export  excluded due to different recording setup
+  # - student-15-[102a6543-6f74-4c28-ad92-ec24485eb410]-export  excluded due to different recording setup
+  # - student-16-[152f87b7-653d-448b-ba71-9a4cfef286c1]-export  excluded due to different recording setup
+  # - student-17-[33e4ceb3-3778-4547-b362-10e179875e54]-export  excluded due to different recording setup
+  - student-18-lab-[4fcba6d6-ec97-4157-88db-990f48ff87fe]-export
+  - student-18-[9d9a80f3-4cbd-40aa-babe-fc966ea9989a]-export
+  - student-19-lab-[4fa5bafb-5f22-4a68-860f-462297531cfc]-export
+  - student-19-[5b4ba538-3557-48f5-8c25-3047473d157f]-export
+  - student-20-lab-[2001c53a-2ee0-477f-99ee-c7dba6c93419]-export
+  - student-20-[3359c0bc-faac-4776-af31-2d9f48261b31]-export
+  - student-21-lab-[8a525a05-bb9a-4738-84c1-8fc9ed7cf6cb]-export
+  - student-21-[6b922d19-cd5f-49b8-a641-e13fc6bbe2f1]-export
+  - student-22-lab-[60e4e3ae-76e4-42d6-ba69-34b50a832f0b]-export
+  - student-22-[147d6ebb-765c-497a-9227-cc72b0d5edcc]-export
+  - student-23-[bb2226b0-94ad-42f3-bf8a-7b30dd9f8bb5]-export
+  - student-24-[8a8d3a36-61eb-431e-9509-cee61eebdb86]-export
+  - student-25-[d181214e-0131-47b3-991f-0912fe5fbfb5]-export
+  - student-26-lab-[6430c235-9f35-4468-8c70-2fbb9e3c730d]-export
+  - student-26-[e00dcfda-b0c8-4d05-8394-45deb5904dc2]-export
+  - student-27-lab-[3aed6dbe-264e-40b3-ab8e-97989e0964b9]-export
+  - student-27-[469fffb3-a45f-4acd-9556-f939994f4dca]-export
+  - student-28-[c13398b4-240a-44ff-b720-da968a694e3c]-export
+  - student-29-[2add6e06-44ad-4353-b0ec-578a65488e5c]-export
+  - student-29-[44f3bee0-1766-4326-95c3-d1278bc03e3f]-export
+  - student-29-[8509f9b6-8142-4d5c-b750-182bbfe7c92e]-export
+  - student-30-lab-[3beb74b9-236e-408b-8b83-56184911a038]-export
+  - student-30-[180d4729-7632-47a5-b329-d710577ec86f]-export
+  - student-31-lab-[3068b7ae-8474-48d7-b97b-8f799695e3ca]-export
+  - student-31-[a0aedc49-af8e-41b2-925f-d9d2fd1c65eb]-export
+  - student-32-[e57e7b2d-4ac9-459d-93f1-bba427a4a1c1]-export
+...

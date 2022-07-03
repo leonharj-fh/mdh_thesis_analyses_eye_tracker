@@ -1,0 +1,38 @@
+%YAML 1.2
+---
+$schema: http://json-schema.org/draft-04/schema#
+additionalProperties: false
+description: Schema describing
+properties:
+  mergeSameStudentRecordings:
+    description: Whether students have multiple data recordings should be merged
+    default: false
+    type: boolean
+  recordings:
+    description: List of student who's recordings were recorded in a LAB environment
+    items:
+      $ref: '#/definitions/Students'
+    type: array
+type: object
+
+
+definitions:
+
+  Students:
+    additionalProperties: false
+    properties:
+      year:
+        description: The year of the dataset
+        min: 0
+        type: integer
+      ids:
+        items:
+          minLength: 1
+          type: string
+        type: array
+    required:
+      - year
+      - ids
+    type: object
+
+...

@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+
+createStatistic: false
+generateLidarStat: true
+generateVergenceStat: false
+commonOutputPath: "/home/user/eye_analyzation_0.2.3/"
+student_year:
+  - 2018 # international student
+  - 2019 # public school student
+#createPlot: true
+# XXX introduce new properties
+...

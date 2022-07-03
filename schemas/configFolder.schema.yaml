@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+$schema: http://json-schema.org/draft-04/schema#
+additionalProperties: false
+description: Schema describing
+properties:
+  subjectIds:
+    description: "List of subject id"
+    minItems: 1
+    items:
+      description: "Subject id"
+      minLength: 1
+      type: string
+  inputPath:
+    type: "string"
+    minLength: 1
+  outputPath:
+    type: "string"
+    minLength: 1
+  sensorDataFilename:
+    type: "string"
+    minLength: 1
+  eyetrackingDataFilename:
+    type: "string"
+    minLength: 1
+required:
+  - "subjectIds"
+  - "inputPath"
+  - "outputPath"
+  - "sensorDataFilename"
+  - "eyetrackingDataFilename"
+type: object
+
+...

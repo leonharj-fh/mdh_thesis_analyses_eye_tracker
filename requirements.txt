@@ -1,0 +1,11 @@
+numpy == 1.23.0
+matplotlib
+kaleido
+pandas == 1.4.3
+plotly == 5.9.0
+pyyaml
+scipy # comes with a different library
+statsmodels == 0.13.2
+# enable/disable if needed. the following are not required.
+#streamlit >= 1.8.0
+#streamlit-authenticator
